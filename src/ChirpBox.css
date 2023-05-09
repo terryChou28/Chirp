@@ -1,0 +1,40 @@
+.chirpBox {
+  padding-bottom: 10px;
+  border-bottom: 8px solid var(--chirp-background);
+  padding-right: 10px;
+}
+
+.chirpBox > form {
+  display: flex;
+  flex-direction: column;
+}
+
+.chirpBox__input {
+  padding: 20px;
+  display: flex;
+}
+
+.chirpBox__input > input {
+  flex: 1;
+  margin-left: 20px;
+  font-size: 20px;
+  border: none;
+}
+
+.chirpBox__imageInput {
+  border: none;
+  padding: 10px;
+}
+
+.chirpBox__chirpButton {
+  background-color: var(--chirp-color) !important;
+  border: none !important;
+  color: white !important;
+  font-weight: 900 !important;
+  text-transform: inherit !important;
+  border-radius: 30px !important;
+  width: 80px;
+  height: 40px !important;
+  margin-top: 20px !important;
+  margin-left: auto !important;
+}
